@@ -1,0 +1,22 @@
+/** @format */
+
+ldod-table#virtual-assistedTable .table-container {
+	border: none !important;
+}
+
+table#virtual-assistedTable {
+	border-collapse: collapse !important;
+}
+
+table#virtual-assistedTable th {
+	border-top: none !important;
+}
+
+table#virtual-assistedTable th:nth-child(1),
+table#virtual-assistedTable th:nth-child(3),
+table#virtual-assistedTable th:nth-child(4),
+table#virtual-assistedTable td:nth-child(1),
+table#virtual-assistedTable td:nth-child(3),
+table#virtual-assistedTable td:nth-child(4) {
+	text-align: center;
+}

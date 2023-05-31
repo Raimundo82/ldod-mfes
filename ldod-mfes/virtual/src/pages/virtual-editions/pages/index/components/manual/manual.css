@@ -1,0 +1,56 @@
+/** @format */
+
+ldod-table#virtual-manualTable .table-container {
+	border: none !important;
+}
+
+table#virtual-manualTable {
+	border-collapse: collapse !important;
+}
+
+table#virtual-manualTable th {
+	border-top: none !important;
+}
+
+table#virtual-manualTable > tbody > tr {
+	cursor: grab;
+}
+table#virtual-manualTable th:nth-child(1),
+table#virtual-manualTable th:nth-child(2),
+table#virtual-manualTable th:nth-child(4),
+table#virtual-manualTable th:nth-child(5),
+table#virtual-manualTable td:nth-child(1),
+table#virtual-manualTable td:nth-child(2),
+table#virtual-manualTable td:nth-child(4),
+table#virtual-manualTable td:nth-child(5) {
+	text-align: center;
+}
+
+table#virtual-manualTable tbody > tr[changed] {
+	background-color: #b4dcf0;
+}
+
+table#virtual-manualTable tbody > tr[dragging] {
+	background-color: antiquewhite;
+}
+
+table#virtual-manualTable tbody > tr[hidden] {
+	display: none;
+}
+
+span[is='ldod-span-icon'] {
+	height: 18px;
+}
+
+button[disabled],
+button:disabled {
+	cursor: not-allowed;
+	pointer-events: none;
+	opacity: 0.65;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}

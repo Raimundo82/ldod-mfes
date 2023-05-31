@@ -1,0 +1,33 @@
+/** @format */
+
+ldod-table#virtual-veMembers .table-container,
+ldod-table#virtual-vePendents .table-container {
+	border: none !important;
+}
+
+table#virtual-veMembers,
+table#virtual-vePendents {
+	border-collapse: collapse !important;
+}
+
+table#virtual-veMembers th,
+table#virtual-vePendents th {
+	border-top: none !important;
+}
+
+table#virtual-vePendents th:nth-child(1),
+table#virtual-vePendents th:nth-child(2),
+table#virtual-vePendents th:nth-child(3),
+table#virtual-vePendents th:nth-child(4),
+table#virtual-veMembers th:nth-child(1),
+table#virtual-veMembers th:nth-child(2),
+table#virtual-veMembers th:nth-child(3),
+table#virtual-veMembers th:nth-child(4) {
+	text-align: start;
+}
+
+table#virtual-veMembers td:nth-child(5),
+table#virtual-veMembers td:nth-child(6),
+table#virtual-vePendents td:nth-child(5) {
+	text-align: center;
+}

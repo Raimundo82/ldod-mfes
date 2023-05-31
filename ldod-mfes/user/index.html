@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dev-style.css">
+    <link rel="stylesheet" href="/node_modules/shared/bootstrap/dist/bootstrap/root.css">
+
+
+    <title>User MFE</title>
+    <script>
+        window.mfes = ['user'];
+    </script>
+</head>
+
+<body>
+    <ul>
+        <li is="user-component" language="en"></li>
+    </ul>
+    <a is="nav-to" to="/user/manage-users">Admin</a>
+    <button class="lang" id="pt">PT</button>
+    <button class="lang" id="es">ES</button>
+    <button class="lang" id="en">EN</button>
+
+
+    <div id="loading" aria-hidden="true">Loading</div>
+    <div id="message"></div>
+    <div id="error" style="color: red;"></div>
+    <button id="clear-message">Clear</button>
+
+    <div id="root"></div>
+    <script type="module" src="/index.js"></script>
+
+</body>
+
+</html>
