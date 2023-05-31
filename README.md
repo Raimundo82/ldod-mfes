@@ -10,7 +10,7 @@
 ### Clone git rep
 
 ```sh
-git clone -b ldod-mfes --single-branch git@github.com:socialsoftware/edition.git
+git clone git@github.com:Raimundo82/ldod-mfes.git
 ```
 
 ### create and configure specific.properties file
